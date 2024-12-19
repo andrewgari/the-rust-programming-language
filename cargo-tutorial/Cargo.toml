@@ -1,7 +1,0 @@
-[package]
-name = "cargo-tutorial"
-version = "0.1.0"
-edition = "2021"
-authors = ["Andrew Gari <covadax.ag@gmail.com>"]
-
-[dependencies]
