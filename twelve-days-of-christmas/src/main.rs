@@ -50,11 +50,11 @@ fn verse_r(day: usize) {
         println!(
             "\n{} {}\n",
             CARDINAL[day].to_uppercase(),
-            GIFTS[day - 1].to_uppercase()
+            GIFTS[4].to_uppercase()
         );
         thread::sleep(Duration::from_secs(1));
     } else if day == 0 {
-        println!("And a {}!", GIFTS[day - 1]);
+        println!("And a {}!", GIFTS[0]);
     } else {
         println!("{} {}", CARDINAL[day], GIFTS[day]);
     }
